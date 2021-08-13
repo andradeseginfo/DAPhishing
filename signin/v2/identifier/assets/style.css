@@ -1,0 +1,198 @@
+/* html hints */
+header {
+  background: black;
+  padding: 10px 20px;
+}
+header h1, header a {
+  margin: 0px;
+  text-decoration: none;
+  color: white;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    font-family: roboto,'Noto Sans Myanmar UI',arial,sans-serif;
+  }
+  
+  .box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 450px;
+    padding: 2.5rem;
+    box-sizing: border-box;
+    border: 1px solid #dadce0;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+
+  }
+  
+  .box h2 {
+    margin: 0px 0 -0.125rem;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    color: #202124;
+    font-family: 'Google Sans','Noto Sans Myanmar UI',arial,sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.3333;
+  }
+
+  .box p {
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: .1px;    
+    font-family: 'Google Sans','Noto Sans Myanmar UI',arial,sans-serif;
+    margin-bottom: 25px;
+    text-align: center;
+    color: #555;
+  }
+  
+  .box .inputBox {
+    position: relative;
+  }
+  
+  .box .inputBox input {
+    width: 90%;
+    margin: 1px 1px 0 1px;
+    padding: 13px 15px;
+    font-size: 16px;
+    height: 28px;
+    letter-spacing: 0.062rem;
+    margin-bottom: 0.60rem;
+    border: 1px solid #ccc;
+    background: transparent;
+    border-radius: 4px;
+    
+  }
+  
+  .box .inputBox label {
+    position: absolute;
+    top: 0;
+    left: 10px;
+    padding: 0.625rem 0;
+    line-height:40px;
+    font-size: 1rem;
+    color: grey;
+    pointer-events: none;
+    transition: 0.5s;
+  }
+  
+  .box .inputBox input:focus ~ label,
+  .box .inputBox input:valid ~ label,
+  .box .inputBox input:not([value=""]) ~ label {
+    top: -1.000rem;
+    left: 10px;
+    color: #1a73e8;
+    font-size: 0.75rem;
+    background-color: white;
+    height: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .box .inputBox input:focus {
+    outline: none;
+    border: 2px solid #1a73e8;
+  }
+  .box input[type="submit"] {
+    border: none;
+    outline: none;
+    color: #fff;
+    background-color: #1a73e8;
+    padding: 0.625rem 1.25rem;
+    cursor: pointer;
+    border-radius: 0.312rem;
+    font-size: 1rem;
+    float: right;
+  }
+  
+  .box input[type="submit"]:hover {
+    background-color: #287ae6;
+    box-shadow: 0 1px 1px 0 rgba(66,133,244,0.45), 0 1px 3px 1px rgba(66,133,244,0.3);
+  }
+  
+  .link-esq {
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    color: #1a73e8;
+    display: inline-block;
+    outline: 0;
+    position: relative;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: inherit;
+    padding: 0;
+    text-align: left;
+    border: 0;
+    font-family: "Google Sans",Roboto,Arial,sans-serif;
+    font-size: .875rem;
+    letter-spacing: .0107142857em;
+    font-weight: 500;
+    text-transform: none;
+  }
+  .link-esq-2 {
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    color: #1a73e8;
+    display: inline-block;
+    outline: 0;
+    position: relative;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: inherit;
+    padding: 0;
+    text-align: left;
+    border: 0;
+    font-family: "Google Sans",Roboto,Arial,sans-serif;
+    font-size: .875rem;
+    letter-spacing: .0107142857em;
+    font-weight: 500;
+    text-transform: none;
+	margin-top: 10px;
+
+   }
+
+  .link-cri {
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    color: #1a73e8;
+    display: inline-block;
+    outline: 0;
+    position: relative;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: inherit;
+    padding: 0;
+    text-align: left;
+    border: 0;
+    margin-top: 8px;
+    font-family: "Google Sans",Roboto,Arial,sans-serif;
+    font-size: .875rem;
+    letter-spacing: .0107142857em;
+    font-weight: 500;
+    text-transform: none;
+  }
+
+  .PrDSKc {
+  color: #5f6368;
+  font-size: 14px;
+  line-height: 1.4286;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  }
+
+  a {
+    text-decoration: none;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    color: #1a73e8;
+    display: inline-block;
+    font-weight: 500;
+    letter-spacing: .25px;
+    outline: 0;
+    position: relative;
+    }
