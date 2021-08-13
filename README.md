@@ -1,7 +1,7 @@
 # DAPhishing
 Código para utilização em teste de cultura organizacional referente a identificação e tratamento de paginas phishings
 
-APLICAÇÃO CRIADA E DISTRIBUIDA PARA FINS EDUCACIONAIS! NÃO ME RESPONSÁBILIZO POR USO INDEVIDO DA FERRAMENTA.
+APLICAÇÃO CRIADA E DISTRIBUIDA PARA FINS EDUCACIONAIS! NÃO ME RESPONSABILIZO POR USO INDEVIDO DA FERRAMENTA.
 
 Mensagem Enviada por E-mail
 
